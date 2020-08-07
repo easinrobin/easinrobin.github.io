@@ -388,6 +388,11 @@ blockquote p {
 	height: auto;
 }
 
+.coming-soon-bg{
+	background-repeat: no-repeat!important;
+	background-size: contain!important;
+}
+
 .bg {
 	position: absolute;
 	top: 0;
