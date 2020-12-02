@@ -2,14 +2,1249 @@
 /*--
 	Color styles
 --*/
-.header-contacts li i, .blog-box .blog-photo a:hover, .nav-holder nav li a.act-link , #twitts-container  .timePosted a:before ,   .follow-twiit-button  , #twitts-container ul li:before ,   .sliding-menu a i.act-link  , .sliding-menu a:hover , .sliding-menu a:hover i, .submen-dec:before , .footer-contacts  li  i  , .footer-contacts  li:hover a , .nav-title:before , .sliding-menu a.back:hover:before  , .scroll-nav a:hover , .scroll-nav a.act-scrlink , .section-title h2 span , .section-subtitle span , .inline-facts-wrap i , .sp-arr  , .text-carousel .slick-center  .text-carousel-item:before, .text-carousel .slick-center  .text-carousel-item:after , .listing-rating i , .text-carousel-item  a.testim-link:hover , .half-hero-wrap h1 span , .hero-decor-let , .fet_pr-carousel-cat a:hover , .fet_pr-carousel-box-media-zoom , .pin:before , .fsp-filter .filter-title i , .fsp-filter .gallery-filters a:hover , .fsp-filter .gallery-filters a.gallery-filter-active , .all-album , .hd-box-wrap p a:hover , .inline-filter .filter-button i , .load-more i , .parallax-header span  , .parallax-header a:hover , .content-nav li a.ln , .content-nav li a.rn , .single-page-fixed-row-link i , .sarr-contr , .details-wrap h3 span  , .pr-list li a:hover , .cur-page:hover span , .show-info:hover span , .tooltip-info h5 , .inline-transparent-filter a:hover , .inline-transparent-filter .folio-counter div.all-album   , .inline-transparent-filter a.gallery-filter-active , .show-case-slider-wrap-style2  .sarr-contr:hover , .hero-start-link i , .hero-start-link span:before , .single-slider-wrap .sp-cont , .fullscreen-slider-title h3 span ,   .hero-start-button i , .audiojs .time strong  , .audiojs .play:before , .audiojs .pause:before , .playlist-wrap ol li:before , .playlist-wrap ol li.playing   a.downbuy-link , .playlist-wrap ol li    a.downbuy-link:hover , .playlist-wrap ol li a.audio-link:hover  , .playlist-wrap ol li.playing a.audio-link , .album-download-links li a , .custom-form label i , .custom-form  .verify-wrap .selectbox  , .selectbox li:hover , .contact-list li i , .recomm-price i , .main-about h2 a , .event-header-item i , .buy-ticket-link  , .album-cover-datils li i , .process-wrap li .process-details a:hover , .blog-btn i  , .widget-wrap .tagcloud li a , .serv-zoom , .hidden-works-item-text ul li a:hover , .hidden-works-item-media-img a  , .hidden-works-item.act-index .hidden-works-item-dec , .hidden-info-pagination i , .team-box .team-photo a:hover , .project-box .team-photo a:hover, .team-single-social li a:hover , .main-about h2 span , .fullscreen-slider-wrap .sp-cont , .fs-carousel-titlecat a  , .fs-carousel-link:hover , .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover{
-	color:#e32249
+
+/* Roots */
+:root {
+	--mainAccentColor: #e32249;
+
+	--darkBg: #2D2D32;
+	--lightBg: #F2F2F2;
+
+	--mainText: #000;
+	--secondaryText: #4b5156;
 }
- .color-bg , .color-btn ,   .btn:before , .btn:before ,.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y , .follow-twiit-button span ,  .share-container  .share-icon span , .subcribe-form .subscribe-button   , .close-twitter:hover ,  .nav-button span , .scroller  , .show-share    , .section-title:before , .promo-link , .close-share:hover , .scroll-nav a.act-scrlink:after , .line-item:before , .custom-inner-header:before , .custom-inner-header i , .custom-skillbar , .pr-title:before , .slick-dots li.slick-active button:before , .order-wrap h3:before , .inline-facts-wrap h6:before , .features-box h3:before , .hero-decor-numb:before , .fet_pr-carousel-box-text h3:before  , .fet_pr-carousel-counter:before , .fsp-filter .gallery-filters a:after , .hd-box-wrap h2:before  , .inline-filter .gallery-filters  a:before , .inline-filter .folio-counter:before , .parallax-text h3:before , .show-case-title h3:before , .accordion a.toggle span , .details-wrap h3:before  ,   .small-color-separator , .audiojs .progress , .volume-control span , .volume-control span.allvolumne , .contact-form-footer p:before , .best-price .price-head , .price-link , .album-cover-title h3:before , .video-promo-text h3:before , .fw-post h2:before , .about-widget h5:after , .serv-works-item .hidden-works-item-text h3:before , .main-about h2:before {
-	background:#e32249
+
+body {
+	background: #2D2D32;
+	color: #000;
 }
+
+.loader-wrap {
+	background: #2A2A2E;
+}
+
+.pin {
+	color: rgba(255, 255, 255, 0.31);
+}
+
+.pin:after {
+	color: rgba(255, 255, 255, 0.51);
+}
+
+p {
+	color: #878C9F;
+}
+
+blockquote p {
+	color: #666;
+}
+
+.single-page-decor {
+	background: #2D2D32;
+}
+
+.single-page-fixed-row-link span {
+	color: #8B8B8B;
+}
+
+.single-page-fixed-row-link span:before {
+	background: rgba(255, 255, 255, 0.081);
+}
+
+.overlay {
+	background: #000;
+}
+
+.main-header:before {
+	background: #2C2D32;
+}
+
+.nav-button span {
+	background: #fff;
+}
+
+.nav-button:hover .menu-button-text {
+	color: #fff;
+}
+
+.menu-button-text {
+	color: rgba(255, 255, 255, 0.41);
+}
+
+.header-social:before {
+	background: rgba(255, 255, 255, 0.08);
+}
+
+.header-social li a {
+	color: rgba(255, 255, 255, 0.41);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header-social li a:hover {
+	color: #fff;
+	background-color: #e32249;
+}
+
+.contact-btn {
+	color: #fff;
+}
+
+.header-logo:before {
+	background: rgba(255, 255, 255, 0.031);
+}
+
+.nav-holder {
+	background: #252425;
+}
+
+.nav-holder:after {
+	background: rgba(255, 255, 255, 0.031);
+}
+
+.nav-title span {
+	color: #fff;
+}
+
+.nav-overlay {
+	background: rgba(37, 36, 37, 0.71);
+}
+
+.nav-overlay .tooltip {
+	color: #fff;
+}
+
+nav.nav-inner {
+	background: #252425;
+}
+
+.sliding-menu a {
+	color: #fff;
+}
+
+.sliding-menu a:after {
+	background: rgba(255, 255, 255, 0.071);
+}
+
+.sliding-menu a i {
+	color: #74829C;
+}
+
+.sliding-menu a.back:before {
+	color: #fff;
+}
+
+.subcribe-form input.enteremail {
+	color: #fff;
+}
+
+.subcribe-form input.enteremail::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.subcribe-form .subscribe-button {
+	color: #fff;
+}
+
+.subscribe-message {
+	color: #fff;
+}
+
+.nav-footer {
+	border-top: 1px dotted rgba(255, 255, 255, 0.09);
+}
+
+.scroll-nav-wrap {
+	background: #2D2D32;
+}
+
+.scroll-nav {
+	border-right: 1px solid rgba(255, 255, 255, 0.11);
+	background: #2A2A2E;
+}
+
+.scroll-nav li a {
+	color: #8B8B8B;
+}
+
+.scroll-nav li a:before,
+.fsp-filter .gallery-filters a:before {
+	background: rgba(255, 255, 255, 0.091);
+}
+
+.main-footer {
+	background: #2A2A2E;
+}
+
+.subfooter {
+	background: #2D2D32;
+}
+
+.policy-box {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.to-top {
+	color: #fff;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	background: #2A2A2E;
+}
+
+.to-top-letter {
+	color: #292929;
+}
+
+.footer-socilal li a,
+.order-wrap li a {
+	color: rgba(255, 255, 255, 0.41);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-socilal li a:hover,
+.order-wrap li a:hover {
+	color: #fff;
+	background-color: #e32249;
+}
+
+.footer-box p {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.footer-header {
+	color: #fff;
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.11);
+}
+
+.footer-contacts {
+	border-top: 1px dotted rgba(255, 255, 255, 0.11);
+}
+
+.footer-contacts li a {
+	color: #fff;
+}
+
+.footer-contacts li span {
+	color: #999;
+}
+
+.footer-contacts li:hover span {
+	color: #fff;
+}
+
+.footer-title span {
+	color: #fff;
+}
+
+.footer-title span:before {
+	background: #fff;
+}
+
+#twitts-container a {
+	color: #fff;
+}
+
+#twitts-container p.tweet {
+	color: rgba(255, 255, 255, 0.71);
+	background: rgba(255, 255, 255, 0.031);
+	box-shadow: 0px 0px 28px 1px rgba(51, 51, 51, 0.41);
+}
+
+#twitts-container ul li:hover p.tweet {
+	background: rgba(255, 255, 255, 0.071);
+}
+
+#twitts-container ul li {
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.151);
+}
+
+#twitts-container .timePosted a {
+	color: rgba(255, 255, 255, 0.51);
+}
+
+#twitts-container .timePosted a:hover {
+	color: #fff;
+}
+
+#twitts-container .timePosted a:after {
+	border-top-color: rgba(255, 255, 255, 0.041);
+}
+
+.follow-twiit-button {
+	background: rgba(255, 255, 255, 0.91);
+	box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.1);
+}
+
+.follow-twiit-button span {
+	background: #fff;
+	color: #fff;
+	box-shadow: 0px 6px 15px -2px rgba(56, 137, 253, 0.81);
+}
+
+.btn {
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.36);
+}
+
+.trsp-btn {
+	border: 1px solid rgba(255, 255, 255, 0.09);
+	color: #fff;
+}
+
+.trsp-btn:before,
+.flat-btn:before {
+	background: rgba(255, 255, 255, 0.29);
+}
+
+.flat-btn {
+	border: 1px solid #000;
+	color: #fff;
+	background: #292929;
+}
+
+.color-btn {
+	color: #fff;
+	border-color: transparent
+}
+
+.btn.color-btn:before {
+	background: #fff;
+}
+
+.hero-wrap {
+	background: #2A2A2E;
+}
+
+.fs-carousel-wrap {
+	background: #2A2A2E;
+}
+
+.fs-carousel-title h3 {
+	color: #fff;
+}
+
+.fs-carousel-title h3 a {
+	color: #fff;
+}
+
+.fs-carousel-titlecat {
+	background: rgba(0, 0, 0, 0.41);
+}
+
+.fs-carousel-titlecat a:hover {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.fs-carousel-link {
+	color: #fff;
+}
+
+.fs-carousel-link:after {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.fs-carousel-link:before {
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.41);
+}
+
+.carousle-item-number {
+	color: rgba(255, 255, 255, 0.41);
+}
+
+.half-bg-dec-item:before {
+	border: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+.half-bg-dec-item.half-bg-dec-vis:before {
+	background: #fff;
+}
+
+.half-hero-wrap h1:before {
+	border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.half-hero-wrap h1 {
+	color: #fff;
+}
+
+.half-hero-wrap h4 {
+	background: rgba(0, 0, 0, 0.21);
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.hero-line-dec {
+	background: rgba(255, 255, 255, 0.41);
+}
+
+.hero-decor-let {
+	color: #fff;
+}
+
+.hero-decor-let span {
+	color: rgba(255, 255, 255, 0.51);
+}
+
+.hero-decor-numb span,
+.hero-decor-numb-tooltip {
+	color: rgba(255, 255, 255, 0.51);
+}
+
+.scroll-down-wrap {
+	border-right: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.scroll-down-wrap span {
+	color: #fff;
+	color: #8B8B8B;
+}
+
+.mousey {
+	border: 2px solid rgba(255, 255, 255, 0.41);
+}
+
+.scroller {
+	background-color: #fff;
+}
+
+.sp-arr {
+	border: 1px solid rgba(255, 255, 255, 0.21);
+	background: rgba(255, 0, 55, 0.137);
+}
+
+.sp-arr:hover {
+	background: rgba(255, 255, 255, 0.21);
+}
+
+.slick-dots li.slick-active button {
+	border-color: rgba(255, 255, 255, 0.41);
+}
+
+.slick-dots li button:before {
+	background: #eee;
+}
+
+.hero-start-link {
+	color: rgba(255, 255, 255, 0.41);
+}
+
+.hero-start-button {
+	background: #2A2A2E;
+	color: #8B8B8B;
+}
+
+.hero-start-button:before {
+	background: rgba(255, 255, 255, 0.081);
+}
+
+.promo-link {
+	color: #fff;
+	box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.4);
+}
+
+.promo-link i {
+	color: #fff;
+	background: #2D2D32;
+}
+
+.promo-link:hover i {
+	background: #878C9F;
+	color: #fff;
+}
+
+.single-slider .slick-dots:before,
+.fullscreen-slider .slick-dots:before {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.single-slider-wrap .sp-cont {
+	color: #fff;
+	background: #2D2D32;
+}
+
+.fullscreenslider-counter {
+	color: rgba(255, 255, 255, 0.51);
+}
+
+section {
+	background: #fff;
+}
+
+.dark-bg {
+	background: #2A2A2E;
+}
+
+.dark-bg2 {
+	background: #2D2D32;
+}
+
+.gray-bg {
+	background: #FAFAFA;
+}
+
+section.parallax-section.parallax-sec-half-right:before,
+section.parallax-section.parallax-sec-half-left:before {
+	background: #e32249;
+}
+
+section.parallax-section.parallax-sec-half-right:after {
+	background: rgba(255, 255, 255, 0.31);
+}
+
+section.parallax-section.sing-dark-bg:before {
+	background: #2A2A2E;
+}
+
+.fw-parallax .section-title h2 {
+	color: #fff;
+}
+
+.horizonral-subtitle span {
+	color: rgba(255, 255, 255, 0.11);
+}
+
+.section-title h2 {
+	color: rgb(50, 58, 69);
+}
+
+section.dark-bg .section-title h2 {
+	color: #fff;
+}
+
+section.parallax-section .section-title h2:before {
+	background: rgba(255, 255, 255, 0.071);
+	border: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+section.parallax-section .section-title h2:after {
+
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.21);
+}
+
+section.parallax-section .section-title p {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.section-title h3 {
+
+	color: #999;
+}
+
+.section-title h3:before {
+
+	border-bottom: 1px dotted #666;
+}
+
+.section-subtitle {
+	color: #ccc;
+}
+
+.pr-title span {
+	color: #878C9F;
+}
+
+.line-item {
+
+	border-right: 0px solid rgba(153, 153, 153, 0.1);
+}
+
+.line-item:first-child {
+	border-left: 0px solid rgba(153, 153, 153, 0.09);
+}
+
+.collage-image-title {
+
+	color: rgba(255, 255, 255, 0.71);
+	background: #2D2D32;
+}
+
+.main-about h2 {
+
+	color: #292929;
+}
+
+.main-about h2 span {
+
+	color: #666;
+}
+
+.main-about h2 a {
+	color: #999;
+}
+
+.main-about h5 {
+	color: #999;
+}
+
+.about-wrap {
+	background: #FCFCFC;
+	border: 1px solid #eee;
+}
+
+.about-wrap h5 {
+	color: #666;
+}
+
+.pr-tags {
+	border: 1px solid #eee;
+	background: #f9f9f9;
+}
+
+.pr-tags span {
+	border-right: 1px solid #ccc;
+}
+
+
+.pr-tags ul li a {
+	color: #666;
+}
+
+.pr-tags ul li a:hover {
+	color: #000;
+}
+
+.features-box a {
+	color: #666;
+}
+
+.features-box h3 {
+	color: #999;
+}
+
+.features-box ul li a {
+	color: #666;
+}
+
+.piechart-holder h4 {
+	border: 1px solid #eee;
+	background: #fff;
+	color: #666;
+}
+
+.chart {
+	background: #fff;
+}
+
+.percent {
+	color: #666;
+}
+
+.skill-bar-percent {
+	color: #666;
+}
+
+.skillbar-bg {
+	background: #292929;
+}
+
+.bg-parallax-module {
+	background: #ccc;
+}
+
+.inline-facts-wrap .num {
+	color: #fff;
+}
+
+.inline-facts-wrap h6 {
+	color: rgba(255, 255, 255, 0.51);
+	background: rgba(51, 51, 51, 0.31);
+}
+
+.fsp-filter .filter-title span {
+	color: #8B8B8B;
+}
+
+.fsp-filter .filter-title i {
+	color: #8B8B8B;
+}
+
+.fsp-filter .gallery-filters a {
+	color: #8B8B8B;
+}
+
+.gallery-item img,
+.grid-sizer img {
+	background: #292929;
+}
+
+.fsp-filter .folio-counter {
+	color: #8B8B8B;
+	border-left: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.fsp-filter .folio-counter div:first-child:before {
+	background: rgba(255, 255, 255, 0.31);
+}
+
+.hd-box-wrap {
+	background: #35353A;
+}
+
+.hd-box-wrap:before {
+	background: rgba(255, 255, 255, 0.061);
+}
+
+.hd-box-wrap h2,
+.album-cover-title h3 {
+	color: #fff;
+}
+
+.hd-box-wrap h2:before,
+.album-cover-title h3:before {
+	background: #fff;
+}
+
+.hd-box-wrap h2 a {
+	color: rgba(255, 255, 255, 0.51);
+}
+
+.hd-box-wrap p {
+	color: #fff;
+}
+
+.white-det .hd-box-wrap {
+	background: #f9f9f9;
+}
+
+.white-det .hd-box-wrap h2 a {
+	color: #292929;
+}
+
+.hd-box-wrap p a {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.white-det .hd-box-wrap p a {
+	color: #888;
+}
+
+.white-det .hd-box-wrap:before {
+	background: rgba(153, 153, 153, 0.061);
+}
+
+.album-cover-title {
+	background: #35353A;
+}
+
+.album-cover-title h3 a {
+	color: rgba(255, 255, 255, 0.51);
+}
+
+.album-cover-title h3:after {
+	background: rgba(255, 255, 255, 0.051);
+}
+
+.album-cover-datils {
+	background: #35353A;
+}
+
+.album-cover-datils ul:before {
+	background: rgba(255, 255, 255, 0.11);
+}
+
+.album-cover-datils li:hover i {
+	color: #888;
+}
+
+.album-cover-datils li span {
+	color: rgba(255, 255, 255, 0.61);
+	background: #2A2A2E;
+}
+
+.album-preview {
+	color: #fff;
+}
+
+.album-preview:before {
+	background: rgba(255, 255, 255, 0.21)
+}
+
+.album-preview:hover {
+	color: #666;
+}
+
+.inline-filter .gallery-filters a {
+	color: #666;
+}
+
+.inline-filter .gallery-filters a:hover {
+	color: #e32249;
+}
+
+.inline-filter .filter-button {
+	color: #fff;
+	background: #35353A;
+}
+
+.inline-filter .folio-counter {
+	color: #666;
+}
+
+.all-album:before {
+	color: #ccc;
+}
+
+.paralax-sec-separator:before,
+.paralax-sec-separator:after {
+	border-top: 1px solid #eee;
+}
+
+.dark-bg .paralax-sec-separator:before,
+.dark-bg .paralax-sec-separator:after {
+	border-color: rgba(153, 153, 153, 0.1);
+}
+
+.parallax-item-number {
+	color: #D5D5D5;
+}
+
+.dark-bg .parallax-item-number {
+	color: #414145;
+}
+
+.parallax-text h3:before {
+	background: #292929;
+}
+
+.parallax-text h3:after {
+	background: #fff;
+}
+
+.dark-bg .parallax-text h3:after {
+	background: #292929;
+}
+
+.parallax-text h3 a {
+	color: rgba(51, 51, 51, 0.81);
+}
+
+.dark-bg .parallax-text h3 a {
+	color: #fff;
+}
+
+.parallax-text h4 {
+	color: #fff;
+}
+
+.parallax-text h4 span:before {
+	background: #35353A;
+}
+
+.parallax-header {
+	background: #35353A;
+}
+
+.parallax-header span,
+.parallax-header a {
+	color: #fff;
+}
+
+.content-nav {
+	background: #2D2D32;
+}
+
+.content-nav li {
+	border-left: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.content-nav li:first-child:before,
+.content-nav li:last-child:before {
+	background: rgba(255, 255, 255, 0.11);
+}
+
+.content-nav li a.ln,
+.content-nav li a.rn {
+	color: #fff;
+}
+
+.content-nav li a.ln span.tooltip,
+.content-nav li a.rn span.tooltip {
+	color: #fff;
+}
+
+.cur-page span {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.single-project-title-style-2:before {
+	background: #ccc;
+}
+
+.single-project-title h2 {
+	color: rgba(255, 255, 255, 0.21);
+}
+
+.single-project-title-style-2 h2 {
+	color: #999;
+}
+
+.single-project-title h2:before {
+	border: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.show-case-slider-wrap-style2 .slick-dots:before {
+	background: rgba(0, 0, 0, 0.4)
+}
+
+.show-case-slider-wrap-style2 .sarr-contr {
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+
+.sinsec-dec:before {
+	background: rgba(255, 255, 255, 0.04);
+}
+
+.details-wrap h3 {
+	color: rgb(50, 58, 69);
+}
+
+.details-wrap h4 {
+	color: #666;
+}
+
+.pr-list.mu-det {
+	background: #f9f9f9;
+	border: 1px solid #eee;
+}
+
+.pr-list li {
+	color: #999;
+}
+
+.pr-list li span {
+	color: #999;
+}
+
+.pr-list-det {
+	border: 1px solid #eee;
+	background: #f9f9f9;
+}
+
+.show-info span {
+	color: #fff;
+	background: #2D2D32;
+}
+
+.tooltip-info {
+	color: #fff;
+	background: #35353A;
+}
+
+.tooltip-info:before {
+	background: rgba(255, 255, 255, 0.021);
+}
+
+.tooltip-info p {
+	color: #888;
+}
+
+.tooltip-info h5 {
+	color: #8B8B8B;
+}
+
+.fet_pr-carousel-title-item h3 {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.fet_pr-carousel-title-item p {
+	color: #fff;
+}
+
+.fet_pr-carousel-box-text {
+	background: #35353A;
+}
+
+.fet_pr-carousel-box-media-zoom {
+	color: #fff;
+	background: #35353A;
+}
+
+.fet_pr-carousel-box-media-zoom:hover {
+	color: #fff;
+}
+
+.fet_pr-carousel-box-text h3 {
+	color: #fff;
+}
+
+.fet_pr-carousel-box-text:before {
+	background: rgba(255, 255, 255, 0.031);
+}
+
+.fet_pr-carousel-box-text h3 a {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.fet_pr-carousel-cat {
+	color: #fff;
+}
+
+.fet_pr-carousel-cat a {
+	color: rgba(255, 255, 255, 0.31);
+}
+
+.fet_pr-carousel-counter {
+	color: #fff;
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.half-slider-wrap .slick-dots:before,
+.fs-carousel-wrap .slick-dots:before {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.slider-nav-counter,
+.fs-carousel-wrap .slider-nav-counter {
+	color: rgba(255, 255, 255, 0.51);
+}
+
+.accordion a.toggle {
+	border: 1px solid #eee;
+	background: #f9f9f9;
+}
+
+.accordion a.toggle span:before,
+.accordion a.toggle span:after {
+	background: #fff;
+}
+
+.accordion a.toggle.act-accordion {
+	color: #fff;
+	background: #35353A;
+}
+
+.accordion-inner {
+	background: #fff;
+	border: 1px solid #eee;
+}
+
+.video-box {
+	box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.2);
+}
+
+.video-box-btn {
+	background: #fff;
+	color: #fff;
+	box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.4);
+}
+
+.video-promo-text h3 {
+	color: rgba(255, 255, 255, 0.71);
+}
+
+.video-promo-text p {
+	color: #fff;
+}
+
+.process-wrap li .process-details,
+.serv-wrap .process-details {
+	background: #f9f9f9;
+	border: 1px solid #eee;
+}
+
+.process-wrap li h4,
+.serv-wrap h4 {
+	color: #666;
+}
+
+.process-wrap li .process-details h6,
+.serv-wrap .process-details h6 {
+	color: #999;
+}
+
+.process-wrap li h4:before,
+.serv-wrap h4:before {
+	background: #ccc;
+}
+
+.process-wrap li:before,
+.serv-wrap:before {
+	border-bottom: 1px dotted #ccc;
+}
+
+.process-wrap li:after,
+.serv-wrap:after {
+	color: #999;
+}
+
+.process-wrap li:last-child:after {
+	color: #666;
+}
+
+.process-numder {
+	color: #f2f2f2;
+}
+
+.srv-link-text h4 {
+	color: #666;
+}
+
+.serv-zoom {
+	background: rgba(51, 51, 51, 0.41);
+}
+
+.serv-wrap .serv-img:before {
+	background: #fff;
+	border: 1px solid #eee;
+}
+
+.hidden-info-wrap {
+	background: #2A2A2E;
+}
+
+.hidden-info-title {
+	color: #888;
+}
+
+.hidden-works-item:before {
+	background: rgba(255, 255, 255, 0.03);
+}
+
+.header-contacts li i,
+.blog-box .blog-photo a:hover,
+.nav-holder nav li a.act-link,
+#twitts-container .timePosted a:before,
+.follow-twiit-button,
+#twitts-container ul li:before,
+.sliding-menu a i.act-link,
+.sliding-menu a:hover,
+.sliding-menu a:hover i,
+.submen-dec:before,
+.footer-contacts li i,
+.footer-contacts li:hover a,
+.nav-title:before,
+.sliding-menu a.back:hover:before,
+.scroll-nav a:hover,
+.scroll-nav a.act-scrlink,
+.section-title h2 span,
+.section-subtitle span,
+.inline-facts-wrap i,
+.sp-arr,
+.text-carousel .slick-center .text-carousel-item:before,
+.text-carousel .slick-center .text-carousel-item:after,
+.listing-rating i,
+.text-carousel-item a.testim-link:hover,
+.half-hero-wrap h1 span,
+.hero-decor-let,
+.fet_pr-carousel-cat a:hover,
+.fet_pr-carousel-box-media-zoom,
+.pin:before,
+.fsp-filter .filter-title i,
+.fsp-filter .gallery-filters a:hover,
+.fsp-filter .gallery-filters a.gallery-filter-active,
+.all-album,
+.hd-box-wrap p a:hover,
+.inline-filter .filter-button i,
+.load-more i,
+.parallax-header span,
+.parallax-header a:hover,
+.content-nav li a.ln,
+.content-nav li a.rn,
+.single-page-fixed-row-link i,
+.sarr-contr,
+.details-wrap h3 span,
+.pr-list li a:hover,
+.cur-page:hover span,
+.show-info:hover span,
+.tooltip-info h5,
+.inline-transparent-filter a:hover,
+.inline-transparent-filter .folio-counter div.all-album,
+.inline-transparent-filter a.gallery-filter-active,
+.show-case-slider-wrap-style2 .sarr-contr:hover,
+.hero-start-link i,
+.hero-start-link span:before,
+.single-slider-wrap .sp-cont,
+.fullscreen-slider-title h3 span,
+.hero-start-button i,
+.audiojs .time strong,
+.audiojs .play:before,
+.audiojs .pause:before,
+.playlist-wrap ol li:before,
+.playlist-wrap ol li.playing a.downbuy-link,
+.playlist-wrap ol li a.downbuy-link:hover,
+.playlist-wrap ol li a.audio-link:hover,
+.playlist-wrap ol li.playing a.audio-link,
+.album-download-links li a,
+.custom-form label i,
+.custom-form .verify-wrap .selectbox,
+.selectbox li:hover,
+.contact-list li i,
+.recomm-price i,
+.main-about h2 a,
+.event-header-item i,
+.buy-ticket-link,
+.album-cover-datils li i,
+.process-wrap li .process-details a:hover,
+.blog-btn i,
+.widget-wrap .tagcloud li a,
+.serv-zoom,
+.hidden-works-item-text ul li a:hover,
+.hidden-works-item-media-img a,
+.hidden-works-item.act-index .hidden-works-item-dec,
+.hidden-info-pagination i,
+.team-box .team-photo a:hover,
+.project-box .team-photo a:hover,
+.team-single-social li a:hover,
+.main-about h2 span,
+.fullscreen-slider-wrap .sp-cont,
+.fs-carousel-titlecat a,
+.fs-carousel-link:hover,
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover {
+	color: var(--mainAccentColor)
+}
+
+.color-bg,
+.color-btn,
+.btn:before,
+.btn:before,
+.ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y,
+.follow-twiit-button span,
+.share-container .share-icon span,
+.subcribe-form .subscribe-button,
+.close-twitter:hover,
+.nav-button span,
+.scroller,
+.show-share,
+.section-title:before,
+.promo-link,
+.close-share:hover,
+.scroll-nav a.act-scrlink:after,
+.line-item:before,
+.custom-inner-header:before,
+.custom-inner-header i,
+.custom-skillbar,
+.pr-title:before,
+.slick-dots li.slick-active button:before,
+.order-wrap h3:before,
+.inline-facts-wrap h6:before,
+.features-box h3:before,
+.hero-decor-numb:before,
+.fet_pr-carousel-box-text h3:before,
+.fet_pr-carousel-counter:before,
+.fsp-filter .gallery-filters a:after,
+.hd-box-wrap h2:before,
+.inline-filter .gallery-filters a:before,
+.inline-filter .folio-counter:before,
+.parallax-text h3:before,
+.show-case-title h3:before,
+.accordion a.toggle span,
+.details-wrap h3:before,
+.small-color-separator,
+.audiojs .progress,
+.volume-control span,
+.volume-control span.allvolumne,
+.contact-form-footer p:before,
+.best-price .price-head,
+.price-link,
+.album-cover-title h3:before,
+.video-promo-text h3:before,
+.fw-post h2:before,
+.about-widget h5:after,
+.serv-works-item .hidden-works-item-text h3:before,
+.main-about h2:before {
+	background: var(--mainAccentColor)
+}
+
 #twitts-container ul li:hover .timePosted a:after {
-	border-top-color: #e32249;
+	border-top-color: var(--mainAccentColor);
 }
 
 .blog-box,
@@ -17,33 +1252,33 @@
 	background: #35353A;
 }
 
-.color-grey-text{
-	color:#949494 !important;
+.color-grey-text {
+	color: #949494 !important;
 }
 
-.color-white-text{
+.color-white-text {
 	color: #F2F2F2 !important;
 }
 
-.color-offwhite-text{
+.color-offwhite-text {
 	color: #CBCBD4 !important;
 }
 
-.color-dark-text{
+.color-dark-text {
 	color: #161616 !important;
 }
 
-.color-crimson-text{
-	color: #e32249 !important;
+.color-crimson-text {
+	color: var(--mainAccentColor) !important;
 }
 
-.my-story-box-bg{
+.my-story-box-bg {
 	background-color: #49494D !important;
-	border: 1px solid #e32249 !important;
+	border: 1px solid var(--mainAccentColor) !important;
 	color: #949494;
 }
 
-.carousel-custom-bg{
+.carousel-custom-bg {
 	background-color: #35353A !important;
-	border: 1px solid #e32249 !important;
+	border: 1px solid var(--mainAccentColor) !important;
 }
